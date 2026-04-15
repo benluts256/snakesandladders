@@ -1,3 +1,7 @@
+/**
+ *
+ * @author LUTS
+ */
 package com.mycompany.snakesladders.model;
 
 import java.util.Map;
