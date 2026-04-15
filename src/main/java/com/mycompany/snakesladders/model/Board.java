@@ -1,4 +1,4 @@
-package com.snakesladders.model;
+package com.mycompany.snakesladders.model;
 
 import java.util.Map;
 

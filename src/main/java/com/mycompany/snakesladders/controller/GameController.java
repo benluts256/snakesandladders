@@ -2,11 +2,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.snakesladders.controller;
+package com.mycompany.snakesladders.controller;
 
-import com.snakesladders.model.GameState;
-import com.snakesladders.view.MainWindow;
-import com.snakesladders.view.SetupDialog;
+import com.mycompany.snakesladders.model.GameState;
+import com.mycompany.snakesladders.view.MainWindow;
+import com.mycompany.snakesladders.view.SetupDialog;
 import javax.swing.*;
 import java.util.List;
 

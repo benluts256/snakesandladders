@@ -7,11 +7,11 @@
  *
  * @author LUTS
  */
-package com.snakesladders.view;
+package com.mycompany.snakesladders.view;
 
-import com.snakesladders.model.Board;
-import com.snakesladders.model.GameState;
-import com.snakesladders.model.Player;
+import com.mycompany.snakesladders.model.Board;
+import com.mycompany.snakesladders.model.GameState;
+import com.mycompany.snakesladders.model.Player;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.*;
