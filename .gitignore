@@ -1,0 +1,20 @@
+# Compiled Java class files
+*.class
+
+# Log files
+*.log
+
+# Maven build directory
+target/
+
+# NetBeans specific folders
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# OS generated files
+.DS_Store
+Thumbs.db
