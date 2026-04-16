@@ -26,7 +26,15 @@ Build the project:Right-click the project and select Clean and Build.
 Run the game:Run the Main.java file located in com.snakesladders.controller.
 
 
-📸 Screenshots(Tip: Once you push to GitHub, upload a screenshot to a screenshots/ folder and link it here!) 
+In the original version, the game only moved forward. By implementing a Stack (LIFO - Last-In, First-Out), we introduced the ability to store a history of game states. Each time a player moves, their previous position is "pushed" onto the stack. This allows for a highly efficient Undo functionality, where we can "pop" the most recent state to revert the board.
+
+From a Data Structures perspective, this demonstrates:
+
+    Constant Time Complexity: Both O(1) push and pop operations ensure the "Undo" feature is instantaneous.
+
+    Memory Efficiency: We only store the necessary integers representing player positions, keeping the space complexity lean at O(k), where k is the number of moves made.
+
+    Professional Logic: It showcases an understanding of how to manage temporal data, a critical skill in software engineering for features like backtracking, undo-redo, and navigation history.
 Game BoardSetup Dialog🤝 ContributingThis is a student project created for learning purposes.  
 
 
